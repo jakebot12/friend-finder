@@ -6,7 +6,7 @@ module.exports = function(app) {
   });
 
     app.post("/api/friends", function (req, res) {
-        var compare = 60;
+        var compare = 100;
         var matchIndex = 0;
 
         for (var j = 0; j < friends.length; j++) {
