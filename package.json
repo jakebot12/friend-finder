@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/jakebot12/friend-finder/issues"
   },
-  "homepage": "https://github.com/jakebot12/friend-finder#readme"
+  "homepage": "https://github.com/jakebot12/friend-finder#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3"
+  }
 }
