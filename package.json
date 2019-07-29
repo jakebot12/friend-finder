@@ -2,9 +2,9 @@
   "name": "friend-finder",
   "version": "1.0.0",
   "description": "This is a personality compatibility survey that is intended to match like personalities with other users/members, based on the survey results.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/jakebot12/friend-finder#readme",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.3"
+    "express": "^4.16.3"
   }
 }
